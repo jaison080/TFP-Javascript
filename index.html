@@ -1,0 +1,65 @@
+<html>
+<head>
+  <title>Calculator</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="javascript.js" defer></script>
+</head>
+<style>
+ .head{
+  text-shadow: 3px 3px 5px yellow;
+ }   
+ 
+  .navbar {
+overflow: hidden;
+background-color: #333;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: red;
+}
+</style>
+<body>
+  <div class="navbar">
+    <a href="Home.html">Home</a>
+    <a href="index.html">Calculator</a>
+    <a href="About.html">About</a>
+ </div>
+ <div class="head">
+ <p><h1><align><center><U>MYCAL</U></center></align></h1></p></div>
+  <div class="calculator">
+    <div class="screen">
+      <div data-previous-operand class="previous-operand"></div>
+      <div data-current-operand class="current-operand"></div>
+    </div>
+    <button data-all-clear class="big">AC</button>
+    <button data-delete>DEL</button>
+    <button data-operation>+</button>
+    <button data-number>7</button>
+    <button data-number>8</button>
+    <button data-number>9</button>
+    <button data-operation>-</button>
+    <button data-number>4</button>
+    <button data-number>5</button>
+    <button data-number>6</button>
+    <button data-operation>*</button>
+    <button data-number>1</button>
+    <button data-number>2</button>
+    <button data-number>3</button>
+    <button data-operation>/</button>
+    <button data-number>.</button>
+    <button data-number>0</button>
+    <button data-equals class="big">=</button>
+  </div>
+</body>
+</html>
